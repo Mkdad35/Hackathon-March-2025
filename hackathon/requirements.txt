@@ -1,9 +1,0 @@
-Django==5.0.2
-requests==2.31.0
-cohere==4.48
-pandas==2.2.1
-beautifulsoup4==4.12.3
-python-dotenv==1.0.1
-openpyxl==3.1.2
-aiohttp==3.9.3
-asyncio==3.4.3 
