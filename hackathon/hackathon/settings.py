@@ -127,18 +127,13 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# DeepSeek settings
-DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY')
-#HUGGINGFACE_API_KEY = os.getenv('HUGGINGFACE_API_KEY')
 COHERE_API_KEY = os.getenv('COHERE_API_KEY')
-# في نهاية الملف
-#RAPIDAPI_KEY = os.getenv('RAPIDAPI_KEY')
 
 APIFY_API_KEY = os.getenv('APIFY_API_KEY')
 
 if not APIFY_API_KEY:
     # إذا لم يتم العثور على المفتاح في .env، استخدم القيمة المباشرة
-    APIFY_API_KEY = 'apify_api_bSCLZpxYq2243YbPhHw97oaeKd7M073AFAxC'
+    APIFY_API_KEY = 'Paste it here as it is'
 
 # Logging configuration
 LOGGING = {
