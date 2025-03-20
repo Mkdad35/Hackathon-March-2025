@@ -138,7 +138,7 @@ APIFY_API_KEY = os.getenv('APIFY_API_KEY')
 
 if not APIFY_API_KEY:
     # إذا لم يتم العثور على المفتاح في .env، استخدم القيمة المباشرة
-    APIFY_API_KEY = 'apify_api_bSCLZpxYq2243YbPhHw97oaeKd7M073AFAxC'
+    APIFY_API_KEY = 'paste it as it is'
 
 # Logging configuration
 LOGGING = {
